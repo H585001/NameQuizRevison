@@ -64,7 +64,7 @@ public class DatabaseActivityTest {
     public void test_addUser() {
 
         PersonDatabase db = PersonDatabase.getDbInstance(ApplicationProvider.getApplicationContext());
-        intending(hasAction(Intent.ACTION_GET_CONTENT)).respondWith(galleryPickStub());
+        intending(hasAction(Intent.ACTION_OPEN_DOCUMENT)).respondWith(galleryPickStub());
         onView(withId(R.id.addStudent)).perform(click());
         onView(withId(R.id.addImage)).perform(click());
         onView(withId(R.id.male)).perform(click());
