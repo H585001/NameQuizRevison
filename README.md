@@ -5,4 +5,4 @@ Most of these bugs are related to permissions and testing as we have barely touc
 
 ## Test Results
 
-![alt text](https://github.com/H585001/NameQuizRevison/edit/master/MainTest.png?raw=true)
+![alt text](https://github.com/H585001/NameQuizRevison/blob/master/MainTest.png?raw=true)
